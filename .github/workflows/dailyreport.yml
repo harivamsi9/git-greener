@@ -17,6 +17,7 @@ jobs:
           run: |
             git config --global user.email "${{ secrets.EMAIL }}"
             git config --global user.name "${{ secrets.USER_NAME }}"
+            git log --oneline | wc -l
 
 
         - name: Update Stats

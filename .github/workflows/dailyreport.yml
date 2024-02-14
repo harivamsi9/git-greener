@@ -18,5 +18,6 @@ jobs:
 
         - name: Commit Changes
           run: |
+            git add README.md
             git commit -am "Daily Commit"
             git push  

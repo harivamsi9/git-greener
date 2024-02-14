@@ -16,6 +16,7 @@ jobs:
         - name: Update Stats
           run: |
             sudo chmod +x update.sh
+            sudo chmod +x hello.sh
             ./update.sh
 
         - name: Commit Changes

@@ -11,7 +11,7 @@ echo "### 🎨 Introduction"
 echo "Contribution graphs are like gardens, and who doesn't love a lush, green garden? This script sprinkles some digital fertilizer to keep your GitHub contributions flourishing!"
 echo
 echo "### 🚀 Project Activity"
-echo "#####Ever marveled at the apparent activity of a repository?"
+echo "##### Ever marveled at the apparent activity of a repository?"
 echo "##### After all it has $(($(git log --oneline | wc -l) + 1)) commits!"
 echo
 echo "##### Last update was on $(bash -c 'echo ${1:0:10} at ${1:11:8}' - "$(git log -n 1 --pretty=format:%ad)") when those lines were... generated"
@@ -19,7 +19,8 @@ echo
 echo "Yes, generated, because it certainly helps a lot to have such an active repo!"
 echo
 echo "### 💻 Resource Utilization"
-echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage.  Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!"
+echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage."
+echo "Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!"
 echo
 echo "---"
 echo

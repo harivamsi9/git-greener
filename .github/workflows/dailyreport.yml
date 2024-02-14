@@ -28,6 +28,7 @@ jobs:
             sudo chmod +x update.sh
             sudo chmod +x hello.sh
             ./update.sh
+            cp ../README.md ./git-greener
 
         - name: Commit Changes
           run: |

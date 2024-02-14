@@ -3,12 +3,20 @@ name: daily-report
 on:
   schedule:
     - cron: '*/5 * * * *'
-workflow_dispatch:
+
 
 
 jobs:
-    my-job:
+    build:
         runs-on: ubuntu-latest
         steps:
-            - name: first-step
-              run: echo "Hello, world!"
+        - uses: actions/checkout@v3
+
+        - name: Update Stats
+         run: |
+            ./update.sh
+
+        - name: Commit Changes
+         run: |
+            git commit -am "Daily Commit"
+            git push  

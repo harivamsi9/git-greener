@@ -18,3 +18,8 @@ echo "Oh and there was **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** dis
 echo "where there is the cron updating this file."
 echo
 echo "Not the best way to monitor a VM in the cloud but it works! :)"
+
+
+
+
+# Credits: This repo is a modification of tools4origins's https://github.com/tools4origins/greengit 

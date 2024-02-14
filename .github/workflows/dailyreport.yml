@@ -17,6 +17,7 @@ jobs:
           run: |
             git config --global user.email "${{ secrets.EMAIL }}"
             git config --global user.name "${{ secrets.USER_NAME }}"
+            git clone https://github.com/harivamsi9/git-greener.git
             git log --oneline | wc -l
 
 

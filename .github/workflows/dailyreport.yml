@@ -25,4 +25,4 @@ jobs:
             git config --global user.name "${{ secrets.USER_NAME }}"
             git add README.md
             git commit -am "Daily Commit"
-            git push  
+            git push origin main

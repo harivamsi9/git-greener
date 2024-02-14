@@ -25,9 +25,8 @@ jobs:
           run: |
             cd git-greener
             git log --oneline | wc -l
-            sudo chmod +x update.sh
             sudo chmod +x hello.sh
-            ./update.sh
+            ./hello.sh > README.md 
             cp ./README.md ../README.md
 
         - name: Commit Changes

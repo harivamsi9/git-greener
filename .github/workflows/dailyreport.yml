@@ -7,16 +7,16 @@ on:
 
 
 jobs:
-    my-job:
+    my-job: 
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v3
 
         - name: Update Stats
-         run: |
+        run: |
             ./update.sh
 
         - name: Commit Changes
-         run: |
+        run: |
             git commit -am "Daily Commit"
             git push  

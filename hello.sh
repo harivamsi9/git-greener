@@ -10,7 +10,7 @@ echo
 echo "### 🎨 Introduction"
 echo "##### Contribution graphs are like gardens, and who doesn't love a lush, green garden? This script sprinkles some digital fertilizer to keep your GitHub contributions flourishing!"
 echo
-echo "##### 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩"
+echo "##### 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩"
 echo
 echo "### 🚀 Project Activity"
 echo "##### Did you notice how active this repository is?"

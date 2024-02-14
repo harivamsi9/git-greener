@@ -4,21 +4,21 @@
 ---
 
 ### 🎨 Introduction
-#### Contribution graphs are like gardens, and who doesn't love a lush, green garden? This script sprinkles some digital fertilizer to keep your GitHub contributions flourishing!
+Contribution graphs are like gardens, and who doesn't love a lush, green garden? This script sprinkles some digital fertilizer to keep your GitHub contributions flourishing!
 
-#### 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+#### 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 
 ### 🚀 Project Activity
-#### Did you notice how active this repository is?
-#### After all it has 58 commits!
+Did you notice how active this repository is?
+#### After all it has 61 commits!
 
-#### Last update was on Wed Feb 14 at 04:39:32 when those lines were... generated
+#### Last update was on Wed Feb 14 at 04:42:15 when those lines were... generated
 
-#### Yes, generated, because it certainly helps a lot to have such an active repo!
+Yes, generated, because it certainly helps a lot to have such an active repo!
 
 ### 💻 Resource Utilization
-#### Oh, and the machine hosting this script (cron updating this file) is operating at **74%** disk usage.
-#### Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!
+Oh, and the machine hosting this script (cron updating this file) is operating at **74%** disk usage.
+Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!
 
 ---
 

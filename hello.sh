@@ -13,7 +13,7 @@ echo
 echo "##### 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩"
 echo
 echo "### 🚀 Project Activity"
-echo "##### Ever marveled at the apparent activity of a repository?"
+echo "##### Did you notice how active this repository is?"
 echo "##### After all it has $(($(git log --oneline | wc -l) + 1)) commits!"
 echo
 echo "##### Last update was on $(bash -c 'echo ${1:0:10} at ${1:11:8}' - "$(git log -n 1 --pretty=format:%ad)") when those lines were... generated"

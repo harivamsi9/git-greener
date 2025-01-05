@@ -19,14 +19,13 @@ echo "#### Last update was on $(bash -c 'echo ${1:0:10} at ${1:11:8}' - "$(git l
 echo
 echo "Yes, generated, because it certainly helps a lot to have such an active repo!"
 echo
-echo "### 🌍 Device Location"
 
 # Fetch location info using ipinfo.io API
 LOCATION=$(curl -s ipinfo.io | jq -r '.city, .region, .country' | paste -s -d ', ' -)
 # echo "This device is currently located in **$LOCATION**."
 
 echo
-echo "### 💻 Resource Utilization"
+echo "### 💻 Resource Utilization & 🌍 Device Location"
 echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage, and is currently located in **$LOCATION**."
 echo 
 echo "Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!"

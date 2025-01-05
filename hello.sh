@@ -23,11 +23,11 @@ echo "### 🌍 Device Location"
 
 # Fetch location info using ipinfo.io API
 LOCATION=$(curl -s ipinfo.io | jq -r '.city, .region, .country' | paste -s -d ', ' -)
-echo "This device is currently located in **$LOCATION**."
+# echo "This device is currently located in **$LOCATION**."
 
 echo
 echo "### 💻 Resource Utilization"
-echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage."
+echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage, and is currently located in **$LOCATION**."
 echo "Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!"
 echo
 echo "---"

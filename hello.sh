@@ -27,7 +27,8 @@ LOCATION=$(curl -s ipinfo.io | jq -r '.city, .region, .country' | paste -s -d ',
 
 echo
 echo "### 💻 Resource Utilization"
-echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage, and is currently located in **$LOCATION**. \n"
+echo "Oh, and the machine hosting this script (cron updating this file) is operating at **$(df -h | grep '/$' | tr -s ' ' | cut -d' ' -f 5)** disk usage, and is currently located in **$LOCATION**."
+echo 
 echo "Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!"
 echo
 echo "---"

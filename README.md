@@ -9,15 +9,15 @@ Contribution graphs are like gardens, and who doesn't love a lush, green garden?
 
 ### 🚀 Project Activity
 Did you notice how active this repository is?
-#### After all it has 287 commits!
+#### After all it has 288 commits!
 
-#### Last update was on Sat Feb 22 at 20:17:13 when those lines were... generated
+#### Last update was on Sun Feb 23 at 14:16:51 when those lines were... generated
 
 Yes, generated, because it certainly helps a lot to have such an active repo!
 
 
 ### 💻 Resource Utilization & 🌍 Device Location
-Oh, and the machine hosting this script (cron updating this file) is operating at **62%** disk usage, and is currently located in **Boydton,Virginia US**.
+Oh, and the machine hosting this script (cron updating this file) is operating at **62%** disk usage, and is currently located in **San Jose,California US**.
 
 Not the most sophisticated monitoring setup, but it gets the job done with rustic charm!
 
